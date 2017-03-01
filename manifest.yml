@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PROTAPL2
+  host: PROTAPL2
+  disk_quota: 1024M
+  services:
+  - PROTAPL2-cloudantNoSQLDB
+  - Natural Language Classifier-sr
+  - Retrieve and Rank-81
